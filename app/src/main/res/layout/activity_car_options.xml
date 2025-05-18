@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opções de Carros"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Informações do veículo e imagem (Brasília) -->
+        <TextView
+            android:id="@+id/brasiliaInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modelo: VW Brasília\nAno: 1973\nCor: Azul"
+            android:layout_below="@id/titleTextView"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="169dp"
+            android:layout_height="121dp"
+            android:layout_below="@id/brasiliaInfoTextView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/brasilia" />
+
+        <!-- Informações do veículo e imagem (Gol) -->
+        <TextView
+            android:id="@+id/golInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modelo: VW Gol\nAno: 2020\nCor: Prata"
+            android:layout_below="@id/imageView"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="162dp"
+            android:layout_height="107dp"
+            android:layout_below="@id/golInfoTextView"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            app:srcCompat="@drawable/golbolinha" />
+
+        <!-- Informações do veículo e imagem (Fusca) -->
+        <TextView
+            android:id="@+id/fuscaInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modelo: VW Fusca\nAno: 1969\nCor: Vermelho"
+            android:layout_below="@id/imageView2"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="173dp"
+            android:layout_height="136dp"
+            android:layout_below="@id/fuscaInfoTextView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/fuscao" />
+
+        <!-- Informações do veículo e imagem (Ferrari) -->
+        <TextView
+            android:id="@+id/ferrariInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modelo: Ferrari 488 GTB\nAno: 2019\nCor: Amarelo"
+            android:layout_below="@id/imageView5"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="170dp"
+            android:layout_height="124dp"
+            android:layout_below="@id/ferrariInfoTextView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/lambo" />
+
+        <!-- Informações do veículo e imagem (Dodger) -->
+        <TextView
+            android:id="@+id/dodgerInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modelo: Dodge Charger\nAno: 1970\nCor: Preto"
+            android:layout_below="@id/imageView6"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="175dp"
+            android:layout_height="129dp"
+            android:layout_below="@id/dodgerInfoTextView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/dodger" />
+
+        <!-- Informações do veículo e imagem (Subaru) -->
+        <TextView
+            android:id="@+id/subaruInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modelo: Subaru Impreza\nAno: 2021\nCor: Azul"
+            android:layout_below="@id/imageView8"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="176dp"
+            android:layout_height="157dp"
+            android:layout_below="@id/subaruInfoTextView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/subaru" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1189dp"
+            android:layout_marginEnd="5dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="772dp"
+            android:layout_marginEnd="6dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="975dp"
+            android:layout_marginEnd="6dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="539dp"
+            android:layout_marginEnd="5dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="348dp"
+            android:layout_marginEnd="6dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="144dp"
+            android:layout_marginEnd="6dp"
+            android:text="Button" />
+
+    </RelativeLayout>
+</ScrollView>
